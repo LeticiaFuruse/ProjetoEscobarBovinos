@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #58af9b;
+}
+
+.content {
+    background-color: #F0FFF0;
+    border-radius: 35px;
+    width: 1200px;
+    height: 65%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 12px 8px 6px 4px #3d7a6c;
+}
+
+
+.btn {
+    margin-left: 85px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 15px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 180px;
+    align-self: center;
+    border: none;
+    margin-top: 5rem;
+
+}
+
+.btn-second {
+    background-color: #58af9b;
+    border: 1px solid #58af9b;
+    transition: background-color .5s;
+}
+.btn-second:hover {
+    background-color: #fff;
+    border: 1px solid #58af9b;
+    color: #58af9b;
+}
+
+
+.nav { 
+
+    margin:12; 
+    padding: 10;
+    text-align: center;
+    
+    }
+    
+.nav li {
+    margin-right: 48px;
+    list-style:none;    
+    display:inline-block;
+    margin-top: 2rem;
+
+
+}
+
+.nav li a {
+    font: 19px Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    text-align:center;
+    border-radius: 5px;
+    text-decoration:none;
+    padding: 15px 50px;
+     border: 1px solid #58af9b;
+    }
+
+.nav a:hover{
+    background:#58af9b;
+    color:#fff;
+    border-color:#000 #fafafa #fafafa #000;
+    padding: 15px 50px;
+    }
+
+
+.divform{
+    margin-top: 10rem;
+    margin-left: 58%;
+}
+
+.divimg{
+
+    position: absolute;
+}
+
+.img{
+    margin-left: 4rem;
+    margin-top: 5rem;
+    height: 330px;
+    width: 530px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.botao{
+    margin-left: 85px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 15px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 180px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem; 
+}
+
+input{
+     background-color: red;
+    border: 1px solid red;
+    transition: background-color .5s;
+}
+
+input:hover{
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
+}
+

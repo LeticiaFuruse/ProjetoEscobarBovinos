@@ -1,0 +1,130 @@
+.rodape, 
+footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: #58af9b;
+    text-align: center;
+    color: white;
+    position: sticky;
+    margin-top: 100%;
+}
+
+* {
+
+  margin: 0; 
+  
+    padding: 0;
+
+}
+body{
+    background: #F0FFF0;
+}
+  
+.navbar {
+    display: flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+
+  
+
+}
+  
+.nav-list {
+    width: 50%;
+    display: flex;
+    margin-left: 2%;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: bold;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+  
+.nav-list li a:hover {
+    color: #58af9b;
+}
+  
+.rightNav {
+    width: 50%;
+    text-align: right;
+}
+  
+#pesq {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+  
+.background {
+    background: white;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.btn-pesq{
+
+    border-color: #58af9b;
+    background:linear-gradient(to bottom, #58af9b 5%, #58af9b 100%);
+    box-shadow:inset 0px 1px 0px 0px #58af9b;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid  #2E8B57;
+    padding: 6px 6px;
+    border-radius: 10px;
+}
+
+.btn-pesq:hover {
+background:linear-gradient(to bottom, #abd5aa  5%, #abd5aa 100%);
+}
+
+
+#img{
+   width: 6%;
+   height: 6%;
+   margin-left: 1%;
+   
+}
+
+#imgbanner{
+    width: 100%;
+  
+}
+
+.fig {
+  position: relative;
+}
+
+
+
+#texto {
+  position: absolute;
+  color:white ;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: arial, sans-serif;
+  left: 640px;
+  top: 250px;
+}
+#texto2 {
+  position: absolute;
+  color: white;
+    font-weight: bold;
+    font-size: 55px;
+    font-family: arial, sans-serif;
+  left: 480px;
+  top: 320px;
+}
+

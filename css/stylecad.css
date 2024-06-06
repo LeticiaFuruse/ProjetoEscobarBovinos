@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.content {
+    background-color: #F0FFF0;
+    border-radius: 35px;
+    width: 900px;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 8px 8px 8px #3d7a6c;
+}
