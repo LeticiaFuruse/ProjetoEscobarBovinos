@@ -1,12 +1,69 @@
-# Projeto PHP Bovinos
-Trabalho feito para a materia de Linguagem de programação web I, do professor Rodrigo Escobar.
+# 🐄 Sistema de Controle de Bovinos
 
-Este é um projeto que ja tinha sido abandonado a uns 2, 3 meses. porem ao surgir a oportunidade de termina-lo e faze-lo funcionar. e ganhar uma nota por isso. decidimos entao faze-lo. entao Pedro lucas, Vitor Hugo, Leticia Furuse e João Vitor. desenvolveram um site de controle de bovinos para fazendas interresadas.
+📚 **Trabalho acadêmico desenvolvido para a disciplina de Linguagem de Programação Web I, ministrada pelo professor Rodrigo Escobar.**
 
-O levantamento de requisitos foi feito atravez de um tio de João Vitor e um avô de Pedro lucas que trabalham respectivamente de tratorista e dono de sitio. Fizemos entao uma entrevista para levantar oq precisariamos colocar no banco de dados para o projeto ser feito.
+---
 
-A arquitetura das paginas HTML e estrutura de pastas foi feito por Vitor hugo correia e João vitor O Front-end com Css e bootstrap, foi feito por Leticia Furuse e Pedro Lucas. O Back-end com php e MySql, foi feito por João Vitor e Vitor Hugo.
+## 👥 Integrantes do grupo
 
-A tambem algumas bilbiotecas que foram colocadas para nos ajudar, sendo elas o JQuery. espero que nossa nota nao seja diminuida por isso ;) E tbm ao decorrer do projeto foi feito muita pesquisa e erros e bugs oq nos fez duvidar da nossa existencia. por isso a codigos que nao foram passados em aula, fruto de muita pesquisa parar corrigir bugs.
+- 👩‍💻 Leticia Furuse  
+- 👨‍💻 Pedro Lucas  
+- 👨‍💻 Vitor Hugo Corrêa  
+- 👨‍💻 João Vitor  
 
-A dela index do site é o login.php, ao tentar entrar em qualquer outra pagina sem logar ira ser redirecionado pra ela. O banco de dados esta no arquivo chamado bovinos.sql e para o site funcionar, a base de dados tera de ter o nome de bovinos.
+---
+
+## 🛠️ Sobre o projeto
+
+Este projeto estava *esquecido na gaveta* por cerca de 2 a 3 meses 😅, mas com a chance de **finalizá-lo, entregá-lo funcionando e ainda ganhar nota**, resolvemos dar vida a ele!
+
+Desenvolvemos um **sistema de controle de bovinos** voltado para fazendas que desejam gerenciar seus animais com mais organização.
+
+---
+
+## 📋 Levantamento de Requisitos
+
+Os requisitos do sistema foram levantados por meio de entrevistas com familiares do grupo que têm vivência no campo:
+
+- 👨‍🌾 **Tio do João Vitor** – tratorista  
+- 🧓 **Avô do Pedro Lucas** – dono de sítio  
+
+Com base nas entrevistas, listamos o que deveria ser armazenado no banco de dados e estruturamos o projeto em cima disso.
+
+---
+
+## 💻 Tecnologias e Divisão de Tarefas
+
+| Parte | Integrantes Responsáveis |
+|-------|---------------------------|
+| 📐 Arquitetura das páginas HTML + estrutura de pastas | Vitor Hugo e João Vitor |
+| 🎨 Front-End (CSS + Bootstrap) | Leticia Furuse e Pedro Lucas |
+| ⚙️ Back-End (PHP + MySQL) | João Vitor e Vitor Hugo |
+
+Além disso, utilizamos a biblioteca **jQuery** para facilitar algumas interações.  
+> 🧪 Muitas soluções implementadas foram resultado de **pesquisas profundas, tentativa e erro**, e alguns momentos de crise existencial 😅
+
+---
+
+## 🔐 Como usar
+
+- A **página inicial** do sistema é o `login.php`.  
+- Tentativas de acessar outras páginas sem login redirecionarão automaticamente para ela.
+- O **banco de dados** está no arquivo `bovinos.sql`.  
+  > ⚠️ Para que o site funcione corretamente, **o nome da base de dados deve ser `bovinos`**.
+
+---
+
+## 🤝 Agradecimentos
+
+Agradecemos ao professor **Rodrigo Escobar** pela disciplina, aos nossos familiares que colaboraram com os requisitos e a você por visitar esse projeto!
+
+---
+
+> **Nota aos avaliadores:**  
+> Usamos bibliotecas externas e buscamos muitas soluções online, mas tudo com o intuito de aprender e entregar algo funcional! 🙏 Esperamos que isso seja valorizado e não punido 😅
+
+---
+
+### 🐮 Projeto feito com carinho e café 💻☕
+
